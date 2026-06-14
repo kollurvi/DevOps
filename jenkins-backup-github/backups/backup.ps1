@@ -1,6 +1,7 @@
 # CONFIGURATION
+$repoPath = "C:\users\subha\jenkins-backup-project\jenkins-backup-github"
 $jenkinsHome = "C:\ProgramData\Jenkins\.jenkins"
-$repoPath = "C:\jenkins-backup\jenkins-backup-repo"
+
 $backupFolder = "$repoPath\backups"
 $timestamp = Get-Date -Format "yyyyMMdd_HHmmss"
 
